@@ -19,5 +19,12 @@ that is because their is a Rate limit of 5 calls/sec set by Walmart.
 
 Demo#2
 ======
-traffictest.js
+quotatest.js
 
+The version of the geolocation API is set with a quota of 3 calls/per minute. Calls get rejected if the rate exceeds.
+
+Demo#3
+======
+spiketest.js
+
+This version of the geolocation proxy is setup with spike arrest  @ 3 calls/sec
