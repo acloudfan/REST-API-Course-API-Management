@@ -12,6 +12,7 @@ In order to run the test:
 2. Update Walmart.js with your Key
 
 > npm install
+
 > node walmart
 
 Test will show that in 1 sec Walmart API will execute successfully on 5 times and 
